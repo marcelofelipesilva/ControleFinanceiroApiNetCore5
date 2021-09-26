@@ -22,7 +22,8 @@
     <ItemGroup>
       <Folder Include="Configurations" />
       <Folder Include="Controllers" />
-      <Folder Include="Models" />
+      <Folder Include="Models\Receita" />
+      <Folder Include="Models\Usuario" />
     </ItemGroup>
 
 </Project>
