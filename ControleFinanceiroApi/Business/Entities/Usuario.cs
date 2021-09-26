@@ -11,7 +11,7 @@ namespace ControleFinanceiroApi.Business.Entities
         [StringLength(50)]
         public string Nome { get; set; }
         [StringLength(10)]
-        public string Logina { get; set; }
+        public string Login { get; set; }
         [StringLength(8)]
         public string Senha { get; set; }
     }
