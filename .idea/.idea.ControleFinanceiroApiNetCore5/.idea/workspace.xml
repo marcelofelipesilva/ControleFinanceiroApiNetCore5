@@ -5,8 +5,8 @@
     <projectFile profileName="ControleFinanceiroApi">ControleFinanceiroApi/ControleFinanceiroApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="add Usuario.cs">
-      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Business/Entities/Receita.cs" afterDir="false" />
+    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="add Receita.cs">
+      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Business/Entities/ContaPagar.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632668606673</updated>
-      <workItem from="1632668620755" duration="757000" />
+      <workItem from="1632668620755" duration="886000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial do projeto.">
       <created>1632668653422</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632669215988</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Receita.cs">
+      <created>1632669390743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632669390743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +126,7 @@
     <MESSAGE value="commit inicial do projeto." />
     <MESSAGE value="atualizado" />
     <MESSAGE value="add Usuario.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Usuario.cs" />
+    <MESSAGE value="add Receita.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Receita.cs" />
   </component>
 </project>
