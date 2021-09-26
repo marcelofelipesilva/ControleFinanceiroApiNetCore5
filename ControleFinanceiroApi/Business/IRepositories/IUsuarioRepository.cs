@@ -7,6 +7,6 @@ namespace ControleFinanceiroApi.Business.IRepositories
     {
         void adicionaUsuario(Usuario usuario);
         void commit();
-        List<Usuario> obterUsuarios(int ContaPagarID);
+        List<Usuario> obterUsuarios(int UsuarioID);
     }
 }
