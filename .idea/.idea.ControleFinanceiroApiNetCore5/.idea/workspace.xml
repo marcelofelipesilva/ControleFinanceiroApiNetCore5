@@ -5,8 +5,12 @@
     <projectFile profileName="ControleFinanceiroApi">ControleFinanceiroApi/ControleFinanceiroApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="add Receita.cs">
-      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Business/Entities/ContaPagar.cs" afterDir="false" />
+    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Business/IRepositories/IContaPagarRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Business/IRepositories/IReceitaRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Business/IRepositories/IUsuarioRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/ControleFinanceiroApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/ControleFinanceiroApi.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632668606673</updated>
-      <workItem from="1632668620755" duration="886000" />
+      <workItem from="1632668620755" duration="1074000" />
+      <workItem from="1632680816411" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial do projeto.">
       <created>1632668653422</created>
@@ -101,14 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632669390743</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ContaPagar.cs">
+      <created>1632669518101</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632669518101</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -120,6 +132,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -127,6 +140,7 @@
     <MESSAGE value="atualizado" />
     <MESSAGE value="add Usuario.cs" />
     <MESSAGE value="add Receita.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Receita.cs" />
+    <MESSAGE value="add ContaPagar.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ContaPagar.cs" />
   </component>
 </project>
