@@ -5,13 +5,11 @@
     <projectFile profileName="ControleFinanceiroApi">ControleFinanceiroApi/ControleFinanceiroApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="add UsuarioViewModelOutput.cs">
-      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Configurations/DbFactoryDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Configurations/MigrationsEF.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/UsuarioMapping.cs" afterDir="false" />
+    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/Business/IRepositories/IUsuarioRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Business/IRepositories/IUsuarioRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/ControleFinanceiroApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/ControleFinanceiroApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/ReceitaMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/ReceitaRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/UsuarioMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/UsuarioRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +18,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/marcelofelipesilva/RiderProjects/ProjetosEstudosDotnet/ControleFinanceiroApiNetCore5/ControleFinanceiroApi/Business/Entities/Usuario.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/marcelofelipesilva/RiderProjects/ProjetosEstudosDotnet/ControleFinanceiroApiNetCore5/ControleFinanceiroApi/Models/ContaPagar/ContaPagarViewModelInput.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ygM6rxOV7EV3ptMSvv32okj6KG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -81,7 +75,9 @@
       <option name="presentableId" value="Default" />
       <updated>1632668606673</updated>
       <workItem from="1632668620755" duration="1074000" />
-      <workItem from="1632680816411" duration="5552000" />
+      <workItem from="1632680816411" duration="5713000" />
+      <workItem from="1632745613833" duration="606000" />
+      <workItem from="1632767514599" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial do projeto.">
       <created>1632668653422</created>
@@ -237,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632686584503</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add UsuarioMapping.cs">
+      <created>1632687724576</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1632687724576</updated>
+    </task>
+    <task id="LOCAL-00024" summary="corrigindo erro digitação">
+      <created>1632687748853</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1632687748853</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +280,6 @@
     <MESSAGE value="add IUsuarioRepository.cs" />
     <MESSAGE value="add ContaPagarMapping.cs" />
     <MESSAGE value="alterado erro digitação." />
-    <MESSAGE value="add UsuarioMapping.cs" />
     <MESSAGE value="add ContaPagarRepository.cs" />
     <MESSAGE value="add ReceitaMapping.cs" />
     <MESSAGE value="add ControleFinanceiroApiDbContext.cs" />
@@ -281,6 +290,8 @@
     <MESSAGE value="corrigindo eroo digitação." />
     <MESSAGE value="add UsuarioViewModelInput.cs" />
     <MESSAGE value="add UsuarioViewModelOutput.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add UsuarioViewModelOutput.cs" />
+    <MESSAGE value="add UsuarioMapping.cs" />
+    <MESSAGE value="corrigindo erro digitação" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigindo erro digitação" />
   </component>
 </project>

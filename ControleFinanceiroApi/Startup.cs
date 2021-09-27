@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ControleFinanceiroApi.Business.IRepositories;
+using ControleFinanceiroApi.Infra.Data;
+using ControleFinanceiroApi.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +30,12 @@ namespace ControleFinanceiroApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
+            services.AddDbContext<ControleFinanceiroApiDbContext>();
+            services.AddScoped<IContaPagarRepository,ContaPagarRepository>();
+            services.AddScoped<IReceitaRepository,ReceitaRepository>();
+            services.AddScoped<IUsuarioRepository,UsuarioRepository>();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "ControleFinanceiroApi", Version = "v1"});
@@ -39,6 +48,8 @@ namespace ControleFinanceiroApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
+                
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ControleFinanceiroApi v1"));
             }
