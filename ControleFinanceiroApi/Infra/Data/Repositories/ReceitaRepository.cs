@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ControleFinanceiroApi.Infra.Data.Repositories
 {
-    public class ReceitaMapping : IReceitaRepository
+    public class ReceitaRepository : IReceitaRepository
     {
         private readonly ControleFinanceiroApiDbContext _context;
 
-        public ReceitaMapping(ControleFinanceiroApiDbContext context)
+        public ReceitaRepository(ControleFinanceiroApiDbContext context)
         {
             _context = context;
         }
