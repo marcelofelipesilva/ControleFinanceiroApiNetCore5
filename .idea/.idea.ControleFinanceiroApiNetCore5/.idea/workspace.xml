@@ -5,8 +5,8 @@
     <projectFile profileName="ControleFinanceiroApi">ControleFinanceiroApi/ControleFinanceiroApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="add services">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="atualizando">
+      <change afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Controllers/UsuarioController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,17 +20,19 @@
     <setting file="mock:///home/marcelofelipesilva/RiderProjects/ProjetosEstudosDotnet/ControleFinanceiroApiNetCore5/ControleFinanceiroApi/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ygM6rxOV7EV3ptMSvv32okj6KG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -79,7 +81,7 @@
       <workItem from="1632668620755" duration="1074000" />
       <workItem from="1632680816411" duration="5713000" />
       <workItem from="1632745613833" duration="606000" />
-      <workItem from="1632767514599" duration="2066000" />
+      <workItem from="1632767514599" duration="2411000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial do projeto.">
       <created>1632668653422</created>
@@ -270,7 +272,42 @@
       <option name="project" value="LOCAL" />
       <updated>1632768609360</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add migration">
+      <created>1632769952272</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1632769952272</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add migration">
+      <created>1632769965850</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1632769965850</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add ContaPagarController.cs">
+      <created>1632769974082</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1632769974082</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add ReceitaController.cs">
+      <created>1632770065878</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1632770065878</updated>
+    </task>
+    <task id="LOCAL-00032" summary="atualizando">
+      <created>1632770076220</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1632770076220</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,10 +329,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="commit inicial do projeto." />
-    <MESSAGE value="atualizado" />
-    <MESSAGE value="add Usuario.cs" />
     <MESSAGE value="add Receita.cs" />
     <MESSAGE value="add ContaPagar.cs" />
     <MESSAGE value="add IContaPagarRepository.cs" />
@@ -317,6 +352,10 @@
     <MESSAGE value="corrigindo erro digitação" />
     <MESSAGE value="corrigindo erro de digitação." />
     <MESSAGE value="add services" />
-    <option name="LAST_COMMIT_MESSAGE" value="add services" />
+    <MESSAGE value="add migration" />
+    <MESSAGE value="add ContaPagarController.cs" />
+    <MESSAGE value="add ReceitaController.cs" />
+    <MESSAGE value="atualizando" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizando" />
   </component>
 </project>
