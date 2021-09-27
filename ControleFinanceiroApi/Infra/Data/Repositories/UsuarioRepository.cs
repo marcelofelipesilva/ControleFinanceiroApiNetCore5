@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ControleFinanceiroApi.Infra.Data.Repositories
 {
-    public class UsuarioMapping : IUsuarioRepository
+    public class UsuarioRepository : IUsuarioRepository
     {
         private readonly ControleFinanceiroApiDbContext _context;
 
-        public UsuarioMapping(ControleFinanceiroApiDbContext context)
+        public UsuarioRepository(ControleFinanceiroApiDbContext context)
         {
             _context = context;
         }
