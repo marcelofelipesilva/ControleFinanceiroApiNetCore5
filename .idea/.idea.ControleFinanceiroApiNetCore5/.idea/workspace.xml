@@ -5,11 +5,8 @@
     <projectFile profileName="ControleFinanceiroApi">ControleFinanceiroApi/ControleFinanceiroApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="">
+    <list default="true" id="2542fb51-53dd-464a-9fdb-a67e3eed4114" name="Changes" comment="add services">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleFinanceiroApiNetCore5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/ReceitaMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/ReceitaRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/UsuarioMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Infra/Data/Repositories/UsuarioRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleFinanceiroApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleFinanceiroApi/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/marcelofelipesilva/RiderProjects/ProjetosEstudosDotnet/ControleFinanceiroApiNetCore5/ControleFinanceiroApi/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1ygM6rxOV7EV3ptMSvv32okj6KG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,10 +27,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -77,7 +79,7 @@
       <workItem from="1632668620755" duration="1074000" />
       <workItem from="1632680816411" duration="5713000" />
       <workItem from="1632745613833" duration="606000" />
-      <workItem from="1632767514599" duration="588000" />
+      <workItem from="1632767514599" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial do projeto.">
       <created>1632668653422</created>
@@ -247,7 +249,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632687748853</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="corrigindo erro de digitação.">
+      <created>1632768590986</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1632768590986</updated>
+    </task>
+    <task id="LOCAL-00026" summary="corrigindo erro de digitação.">
+      <created>1632768597440</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1632768597440</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add services">
+      <created>1632768609360</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1632768609360</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +315,8 @@
     <MESSAGE value="add UsuarioViewModelOutput.cs" />
     <MESSAGE value="add UsuarioMapping.cs" />
     <MESSAGE value="corrigindo erro digitação" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrigindo erro digitação" />
+    <MESSAGE value="corrigindo erro de digitação." />
+    <MESSAGE value="add services" />
+    <option name="LAST_COMMIT_MESSAGE" value="add services" />
   </component>
 </project>
