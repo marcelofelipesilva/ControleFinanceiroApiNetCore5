@@ -3,6 +3,7 @@ using ControleFinanceiroApi.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ControleFinanceiroApi.Migrations
 {
     [DbContext(typeof(ControleFinanceiroApiDbContext))]
-    partial class ControleFinanceiroApiDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220724133110_atualDep")]
+    partial class atualDep
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
