@@ -2,7 +2,7 @@
 
 namespace ControleFinanceiroApi.Migrations
 {
-    public partial class inicialProjeto : Migration
+    public partial class atualizadocore6 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
